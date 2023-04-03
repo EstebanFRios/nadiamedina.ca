@@ -165,6 +165,15 @@ html.boxed body {
 	background: #f8f8f8 url(../images/bg-pattern-boxed.png) repeat fixed;
 }
 
+.mailto {
+    background-color: #bbbbbb;
+    text-decoration: none;
+    padding: 1px 10px;
+    font-size: 20px;
+    display: inline-block;
+    color: white !important;
+}
+
 @media (min-width: 1630px) {
 	html.boxed .page {
 		max-width: 1600px;
@@ -583,7 +592,7 @@ html [class*='section-'].section-bottom-0 {
 
 @media (min-width: 1600px) {
 	.section-xl {
-		padding: 30px 0;
+		padding: 150px 0;
 	}
 	.section-xxl {
 		padding: 200px 0;
@@ -5209,8 +5218,8 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-sidebar .rd-navbar-brand img {
-	max-width: 280px;
-	max-height: 200px;
+	max-width: 300px;
+	max-height: 300px;
 }
 
 .rd-navbar-sidebar .rd-navbar-nav-wrap {
